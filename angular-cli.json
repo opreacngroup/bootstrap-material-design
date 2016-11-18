@@ -18,9 +18,21 @@
       "prefix": "app",
       "mobile": false,
       "styles": [
-        "styles.css"
+		"../node_modules/font-awesome/css/font-awesome.min.css",
+		"../node_modules/bootstrap/dist/css/bootstrap.css",
+        "../node_modules/bootstrap-material-design/dist/css/bootstrap-material-design.css",
+        "../node_modules/bootstrap-material-design/dist/css/ripples.css",
+		"styles.css",
       ],
-      "scripts": [],
+      "scripts": [
+		"../node_modules/jquery/dist/jquery.js",
+		"../node_modules/tether/dist/js/tether.js",
+		"../node_modules/bootstrap/dist/js/bootstrap.js",	  
+		
+        "../node_modules/arrive/src/arrive.js",
+        "../node_modules/bootstrap-material-design/dist/js/material.js",
+        "../node_modules/bootstrap-material-design/dist/js/ripples.js"
+      ],
       "environments": {
         "source": "environments/environment.ts",
         "dev": "environments/environment.ts",
